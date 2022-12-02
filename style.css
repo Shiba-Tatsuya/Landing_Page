@@ -1,0 +1,255 @@
+body,html {
+    margin:0;
+    padding:0;
+  }
+.body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+.txt p
+{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+header
+{
+    display: flex;
+    background: #000000;
+    justify-content: space-between;
+
+}
+.logo
+{
+    width: 5em;
+    margin: 10px;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(/images/wallpaperflare.com_wallpaper.jpg);
+    height: 100vh;
+    align-items: center;
+}
+.top
+{
+    background-blend-mode: screen;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 80%;
+    
+}
+
+.tag
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+}
+div
+{
+    display: block;
+}
+.txt
+{
+    width: 50%;
+    
+}
+
+.uchihas
+{
+    height:300px;
+    margin:auto;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+.between
+{
+    height: 600px;
+    background:#000000;
+    display: flex;
+    flex-direction: column;
+    color: #E5E7Eb;
+    justify-content: center;
+}
+ .slogan
+ {
+
+    font-size: 36px;
+    align-self: center;
+    margin-bottom: 40px;
+ }
+.images
+{
+    display: flex;
+    justify-content: space-around;
+}
+.card
+{
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+    margin: -0.5em -1em -1em -1em;
+}
+ul
+{
+    color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+ul .names
+{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-evenlyF;
+    align-items:center;
+    justify-items: center;
+
+}
+.name
+{
+    width: 270px;
+}
+footer
+{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background: #000000;
+    color: #E5E7Eb;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.images
+{
+    display: flex;
+    flex-direction: wrap;
+
+}
+
+.bottom
+{
+    padding: 0 200px;
+    height: 200px;
+    background-image: url(/images/original.png);
+}
+
+.txta
+{
+    text-align: center;
+    font-size: 36px;
+    color: #E5E7Eb;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+ p.textb
+ {
+    text-align:right;
+    margin-right: 70px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+    color:#fff
+}
+
+.info
+{
+    height: 200px;
+    display: flex;
+    background-color: #000000;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+
+h3{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+.cont
+{
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+.school
+{
+    color:
+}
+
+.details
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+button
+{
+    width: 100px;
+    border-radius:10px;
+    height: 50px;
+}
+
+button:active {
+    background-color: #ffbf00;
+}
+
+button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color:#A9CCE3;
+    transition: 0.7s;
+}
